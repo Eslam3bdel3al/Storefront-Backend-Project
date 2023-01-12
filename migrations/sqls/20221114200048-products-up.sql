@@ -1,0 +1,2 @@
+CREATE TABLE products (id SERIAL PRIMARY KEY,product_name VARCHAR(50),product_price integer, category_id bigint NOT NULL REFERENCES categories(id));
+INSERT INTO products (product_name, product_price, category_id) VALUES ('mobile', 7000, 2);

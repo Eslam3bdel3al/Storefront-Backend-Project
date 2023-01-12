@@ -1,0 +1,2 @@
+CREATE TABLE users (id SERIAL PRIMARY KEY, first_name VARCHAR(50),last_name VARCHAR(50),user_name VARCHAR(50), password_digest VARCHAR);
+INSERT INTO users (first_name, last_name,user_name, password_digest) VALUES ('eslam', 'mostafa', 'eslamMostafa', '$2b$10$RX1KfvB4sucHBhC5eZZM6ebK8aIi8yfwq7n9XLU1wDalOkznOXbn2');
